@@ -11,3 +11,7 @@ jobs:
     steps:
       - name: Say hello
         run: echo "hello world 🌎"
+      - name: Print date
+        run: date
+      - name: Print current directory
+        run: ls -l
